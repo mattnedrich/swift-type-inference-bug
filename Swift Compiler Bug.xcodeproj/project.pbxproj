@@ -32,15 +32,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C91A950F1CC982B100C55F68 /* Swift Compiler Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Compiler Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91A950F1CC982B100C55F68 /* Swift Compiler Bug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Compiler Bug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C91A95121CC982B100C55F68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C91A95141CC982B100C55F68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C91A95171CC982B100C55F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C91A95191CC982B100C55F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C91A951C1CC982B100C55F68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C91A951E1CC982B100C55F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C91A95231CC982B100C55F68 /* Swift Compiler TestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Compiler TestsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C91A952E1CC982B100C55F68 /* Swift Compiler TestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Compiler TestsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91A95231CC982B100C55F68 /* Swift Compiler Bug.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Compiler Bug.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91A952E1CC982B100C55F68 /* Swift Compiler Bug.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Compiler Bug.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 		C91A95061CC982B100C55F68 = {
 			isa = PBXGroup;
 			children = (
-				C91A95111CC982B100C55F68 /* Swift Compiler Tests */,
+				C91A95111CC982B100C55F68 /* Swift Compiler Bug */,
 				C91A95101CC982B100C55F68 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,14 +79,14 @@
 		C91A95101CC982B100C55F68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C91A950F1CC982B100C55F68 /* Swift Compiler Tests.app */,
-				C91A95231CC982B100C55F68 /* Swift Compiler TestsTests.xctest */,
-				C91A952E1CC982B100C55F68 /* Swift Compiler TestsUITests.xctest */,
+				C91A950F1CC982B100C55F68 /* Swift Compiler Bug.app */,
+				C91A95231CC982B100C55F68 /* Swift Compiler Bug.xctest */,
+				C91A952E1CC982B100C55F68 /* Swift Compiler Bug.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C91A95111CC982B100C55F68 /* Swift Compiler Tests */ = {
+		C91A95111CC982B100C55F68 /* Swift Compiler Bug */ = {
 			isa = PBXGroup;
 			children = (
 				C91A95121CC982B100C55F68 /* AppDelegate.swift */,
@@ -96,15 +96,16 @@
 				C91A951B1CC982B100C55F68 /* LaunchScreen.storyboard */,
 				C91A951E1CC982B100C55F68 /* Info.plist */,
 			);
+			name = "Swift Compiler Bug";
 			path = "Swift Compiler Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C91A950E1CC982B100C55F68 /* Swift Compiler Tests */ = {
+		C91A950E1CC982B100C55F68 /* Swift Compiler Bug */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C91A95371CC982B100C55F68 /* Build configuration list for PBXNativeTarget "Swift Compiler Tests" */;
+			buildConfigurationList = C91A95371CC982B100C55F68 /* Build configuration list for PBXNativeTarget "Swift Compiler Bug" */;
 			buildPhases = (
 				C91A950B1CC982B100C55F68 /* Sources */,
 				C91A950C1CC982B100C55F68 /* Frameworks */,
@@ -114,14 +115,14 @@
 			);
 			dependencies = (
 			);
-			name = "Swift Compiler Tests";
+			name = "Swift Compiler Bug";
 			productName = "Swift Compiler Tests";
-			productReference = C91A950F1CC982B100C55F68 /* Swift Compiler Tests.app */;
+			productReference = C91A950F1CC982B100C55F68 /* Swift Compiler Bug.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C91A95221CC982B100C55F68 /* Swift Compiler TestsTests */ = {
+		C91A95221CC982B100C55F68 /* Swift Compiler BugTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C91A953A1CC982B100C55F68 /* Build configuration list for PBXNativeTarget "Swift Compiler TestsTests" */;
+			buildConfigurationList = C91A953A1CC982B100C55F68 /* Build configuration list for PBXNativeTarget "Swift Compiler BugTests" */;
 			buildPhases = (
 				C91A951F1CC982B100C55F68 /* Sources */,
 				C91A95201CC982B100C55F68 /* Frameworks */,
@@ -132,14 +133,14 @@
 			dependencies = (
 				C91A95251CC982B100C55F68 /* PBXTargetDependency */,
 			);
-			name = "Swift Compiler TestsTests";
+			name = "Swift Compiler BugTests";
 			productName = "Swift Compiler TestsTests";
-			productReference = C91A95231CC982B100C55F68 /* Swift Compiler TestsTests.xctest */;
+			productReference = C91A95231CC982B100C55F68 /* Swift Compiler Bug.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C91A952D1CC982B100C55F68 /* Swift Compiler TestsUITests */ = {
+		C91A952D1CC982B100C55F68 /* Swift Compiler BugUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C91A953D1CC982B100C55F68 /* Build configuration list for PBXNativeTarget "Swift Compiler TestsUITests" */;
+			buildConfigurationList = C91A953D1CC982B100C55F68 /* Build configuration list for PBXNativeTarget "Swift Compiler BugUITests" */;
 			buildPhases = (
 				C91A952A1CC982B100C55F68 /* Sources */,
 				C91A952B1CC982B100C55F68 /* Frameworks */,
@@ -150,9 +151,9 @@
 			dependencies = (
 				C91A95301CC982B100C55F68 /* PBXTargetDependency */,
 			);
-			name = "Swift Compiler TestsUITests";
+			name = "Swift Compiler BugUITests";
 			productName = "Swift Compiler TestsUITests";
-			productReference = C91A952E1CC982B100C55F68 /* Swift Compiler TestsUITests.xctest */;
+			productReference = C91A952E1CC982B100C55F68 /* Swift Compiler Bug.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -178,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C91A950A1CC982B100C55F68 /* Build configuration list for PBXProject "Swift Compiler Tests" */;
+			buildConfigurationList = C91A950A1CC982B100C55F68 /* Build configuration list for PBXProject "Swift Compiler Bug" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -191,9 +192,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C91A950E1CC982B100C55F68 /* Swift Compiler Tests */,
-				C91A95221CC982B100C55F68 /* Swift Compiler TestsTests */,
-				C91A952D1CC982B100C55F68 /* Swift Compiler TestsUITests */,
+				C91A950E1CC982B100C55F68 /* Swift Compiler Bug */,
+				C91A95221CC982B100C55F68 /* Swift Compiler BugTests */,
+				C91A952D1CC982B100C55F68 /* Swift Compiler BugUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -254,12 +255,12 @@
 /* Begin PBXTargetDependency section */
 		C91A95251CC982B100C55F68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C91A950E1CC982B100C55F68 /* Swift Compiler Tests */;
+			target = C91A950E1CC982B100C55F68 /* Swift Compiler Bug */;
 			targetProxy = C91A95241CC982B100C55F68 /* PBXContainerItemProxy */;
 		};
 		C91A95301CC982B100C55F68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C91A950E1CC982B100C55F68 /* Swift Compiler Tests */;
+			target = C91A950E1CC982B100C55F68 /* Swift Compiler Bug */;
 			targetProxy = C91A952F1CC982B100C55F68 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -374,7 +375,7 @@
 				INFOPLIST_FILE = "Swift Compiler Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "None.Swift-Compiler-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Swift Compiler Bug";
 			};
 			name = Debug;
 		};
@@ -385,7 +386,7 @@
 				INFOPLIST_FILE = "Swift Compiler Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "None.Swift-Compiler-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Swift Compiler Bug";
 			};
 			name = Release;
 		};
@@ -396,8 +397,8 @@
 				INFOPLIST_FILE = "Swift Compiler TestsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "None.Swift-Compiler-TestsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Compiler Tests.app/Swift Compiler Tests";
+				PRODUCT_NAME = "Swift Compiler Bug";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Compiler Bug.app/Swift Compiler Bug";
 			};
 			name = Debug;
 		};
@@ -408,8 +409,8 @@
 				INFOPLIST_FILE = "Swift Compiler TestsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "None.Swift-Compiler-TestsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Compiler Tests.app/Swift Compiler Tests";
+				PRODUCT_NAME = "Swift Compiler Bug";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Compiler Bug.app/Swift Compiler Bug";
 			};
 			name = Release;
 		};
@@ -419,7 +420,7 @@
 				INFOPLIST_FILE = "Swift Compiler TestsUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "None.Swift-Compiler-TestsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Swift Compiler Bug";
 				TEST_TARGET_NAME = "Swift Compiler Tests";
 			};
 			name = Debug;
@@ -430,7 +431,7 @@
 				INFOPLIST_FILE = "Swift Compiler TestsUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "None.Swift-Compiler-TestsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Swift Compiler Bug";
 				TEST_TARGET_NAME = "Swift Compiler Tests";
 			};
 			name = Release;
@@ -438,7 +439,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C91A950A1CC982B100C55F68 /* Build configuration list for PBXProject "Swift Compiler Tests" */ = {
+		C91A950A1CC982B100C55F68 /* Build configuration list for PBXProject "Swift Compiler Bug" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C91A95351CC982B100C55F68 /* Debug */,
@@ -447,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C91A95371CC982B100C55F68 /* Build configuration list for PBXNativeTarget "Swift Compiler Tests" */ = {
+		C91A95371CC982B100C55F68 /* Build configuration list for PBXNativeTarget "Swift Compiler Bug" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C91A95381CC982B100C55F68 /* Debug */,
@@ -455,7 +456,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		C91A953A1CC982B100C55F68 /* Build configuration list for PBXNativeTarget "Swift Compiler TestsTests" */ = {
+		C91A953A1CC982B100C55F68 /* Build configuration list for PBXNativeTarget "Swift Compiler BugTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C91A953B1CC982B100C55F68 /* Debug */,
@@ -463,7 +464,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		C91A953D1CC982B100C55F68 /* Build configuration list for PBXNativeTarget "Swift Compiler TestsUITests" */ = {
+		C91A953D1CC982B100C55F68 /* Build configuration list for PBXNativeTarget "Swift Compiler BugUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C91A953E1CC982B100C55F68 /* Debug */,
