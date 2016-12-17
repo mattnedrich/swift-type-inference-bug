@@ -2,7 +2,7 @@
 
 This project contains code the reproduces the Swift compiler bug described [here](https://bugs.swift.org/browse/SR-305). The bug invoves the compiler not being able to efficiently perform type inference on semi-simple dictionary/array literals.
 
-I have also wrote about this issue [here](https://spin.atomicobject.com/2016/04/26/swift-long-compile-time/), and it has been discussed on [Reddit](https://www.reddit.com/r/programming/comments/4givdg/go_home_swift_compiler_youre_drunk/) and [Hacker News](https://news.ycombinator.com/item?id=11573213)
+I have also written about this issue [here](https://spin.atomicobject.com/2016/04/26/swift-long-compile-time/), and it has been discussed on [Reddit](https://www.reddit.com/r/programming/comments/4givdg/go_home_swift_compiler_youre_drunk/) and [Hacker News](https://news.ycombinator.com/item?id=11573213)
 
 The only code of interest in this project is in the `AppDelegate`, which contains the following
 
